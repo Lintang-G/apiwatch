@@ -1,0 +1,25 @@
+{
+  "overrides": {
+    "minimatch": "^11.0.1"
+  },
+  "name": "apiwatch",
+  "private": true,
+  "workspaces": ["apps/*","packages/*"],
+  "version": "1.0.0",
+  "description": "A web application that allows registered users to monitor HTTP/HTTPS endpoints, track availability, analyze response times and receive notifications when monitored services become unavailable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lintang-G/apiwatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lintang-G/apiwatch/issues"
+  },
+  "homepage": "https://github.com/Lintang-G/apiwatch#readme"
+}
